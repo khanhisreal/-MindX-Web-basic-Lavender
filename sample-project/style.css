@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive
+}
+
+.header {
+    background-color: aquamarine;
+    position: relative;
+    height: 80px;
+}
+
+.nav {
+    background-color: lightblue;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: lavender;
+}
+
+.header img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.slide-show img {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.info p {
+    width: 60%;
+    margin: auto;
+}
+
+.images {
+    width: 60%;
+    margin: auto;
+}
+
+.images .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images .items .item {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.images img {
+    width: 80%;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.contact .grey{
+    color: grey;
+}
+
+.contact input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact button{
+    padding: 5px 15px;
+    border: 0;
+    background-color: lavender;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.map {
+    background-color: lavender;
+    text-align: center;
+}
+
+.map iframe {
+    padding: 15px;
+    width: 60%;
+}
+
+.map div {
+    padding-bottom: 10px;
+    color: black;
+}
